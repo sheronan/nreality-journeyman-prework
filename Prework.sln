@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trains", "Trains", "{4559BB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data-structures", "data-structures", "{773CC35B-D789-4204-B35B-772CE570D2C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueList", "QueueList\QueueList.csproj", "{8DCDD18D-50B5-4253-8C10-B85DA4D0F102}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueList", "data-structures\QueueList.csproj", "{8DCDD18D-50B5-4253-8C10-B85DA4D0F102}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
