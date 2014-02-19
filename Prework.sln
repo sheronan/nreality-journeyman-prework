@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trains", "Trains", "{4559BB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data-structures", "data-structures", "{773CC35B-D789-4204-B35B-772CE570D2C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueList", "QueueList\QueueList.csproj", "{8DCDD18D-50B5-4253-8C10-B85DA4D0F102}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,8 +26,15 @@ Global
 		{15E4335E-71E5-4141-85F0-2789CDAB63C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15E4335E-71E5-4141-85F0-2789CDAB63C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15E4335E-71E5-4141-85F0-2789CDAB63C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DCDD18D-50B5-4253-8C10-B85DA4D0F102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DCDD18D-50B5-4253-8C10-B85DA4D0F102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DCDD18D-50B5-4253-8C10-B85DA4D0F102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DCDD18D-50B5-4253-8C10-B85DA4D0F102}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8DCDD18D-50B5-4253-8C10-B85DA4D0F102} = {773CC35B-D789-4204-B35B-772CE570D2C4}
 	EndGlobalSection
 EndGlobal
