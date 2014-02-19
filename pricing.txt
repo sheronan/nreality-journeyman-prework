@@ -1,0 +1,27 @@
+Notes:
+Scan item, check rules
+
+Item 
+-ItemId
+-ItemDescription
+
+(Contains a discount item)
+
+ItemPrice 
+-ItemId
+-Price
+-IsItemOnSale
+
+(Discount item price is zero)
+
+ScannedItem
+-ScannedItemId
+-ItemId
+-ScannedQuantity
+-ScannedPrice (Rounded to 2 decimal places)
+
+Scan Entity
+-ScannedItemId
+-Apply Rule (Checks IsItemOnSale and Updates ScannedPrice)
+	-Adds new discount item based on rule and ScannedPrice contains value of discount (is negative)
+-Total (Updated by summing scanned price and is then rounded to 2 decimal places)
